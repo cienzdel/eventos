@@ -1,7 +1,7 @@
 {
-  "generado": "2026-11-27T16:43:22.680Z",
+  "generado": "2026-11-27T16:46:22.702Z",
   "pagina": "https://cienzdel.unizar.es/eventos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "eventos": [
     {
       "id": "jornada-salidas-profesionales-en-ciencias",
@@ -21,7 +21,7 @@
       "resumen": "Egresadas y egresados de los cinco grados de la Facultad cuentan qué hicieron al terminar la carrera: investigación, empresa, docencia y oposiciones.",
       "inscripcion": "https://example.org/inscripcion-salidas-profesionales",
       "plazo": "2026-12-02",
-      "portada": "https://cienzdel.unizar.es/ejemplos/salidas.jpg"
+      "portada": "https://cienzdel.github.io/eventos/ejemplos/salidas.jpg"
     },
     {
       "id": "torneo-de-mus-2026-27",
@@ -42,7 +42,7 @@
       "resumen": "Segunda edición del torneo de mus de la Facultad. Inscripción por parejas, eliminatoria directa y premios para las tres primeras.",
       "inscripcion": "https://example.org/inscripcion-mus",
       "plazo": null,
-      "portada": "https://cienzdel.unizar.es/ejemplos/mus.jpg"
+      "portada": "https://cienzdel.github.io/eventos/ejemplos/mus.jpg"
     },
     {
       "id": "taller-de-latex-para-el-tfg",
@@ -63,7 +63,7 @@
       "resumen": "Taller práctico para empezar el Trabajo Fin de Grado en LaTeX: estructura del documento, bibliografía, figuras y ecuaciones.",
       "inscripcion": "https://example.org/inscripcion-taller-latex",
       "plazo": "2026-12-12",
-      "portada": "https://cienzdel.unizar.es/ejemplos/latex.jpg"
+      "portada": "https://cienzdel.github.io/eventos/ejemplos/latex.jpg"
     },
     {
       "id": "cine-forum-ciencia-en-pantalla",
