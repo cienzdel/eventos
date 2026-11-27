@@ -22,7 +22,7 @@
   arc=2mm, left=3mm, right=3mm, top=1.5mm, bottom=1.5mm, fonttitle=\bfseries, title=#1, breakable}
 \newcommand{\boton}[1]{\tcbox[on line, colback=white, colframe=DarkGray3, boxrule=0.4pt, arc=1mm,
   left=1.2mm, right=1.2mm, top=0.3mm, bottom=0.3mm, boxsep=0pt]{\small\strut #1}}
-\newcommand{\web}[1]{\href{https://#1}{\texttt{#1}}}
+\newcommand{\web}[1]{\href{https://#1}{\nolinkurl{#1}}}
 
 \begin{document}
 
@@ -152,7 +152,7 @@ Otras & Cualquier otra línea con la forma «Nombre: valor» («Plazas: 32 parej
 
 \begin{consejo}[Para la difusión]
 En «Más información», el botón \boton{Copiar enlace} da la dirección directa del evento
-(\texttt{cienzdel.unizar.es/eventos\#torneo-de-mus-2026-27}), que abre su ventana al entrar. Es la que
+(\nolinkurl{cienzdel.unizar.es/eventos#torneo-de-mus-2026-27}), que abre su ventana al entrar. Es la que
 conviene poner en Instagram o en los correos. Ojo: depende del título, así que si lo cambias, cambia el enlace.
 \end{consejo}
 
@@ -172,9 +172,9 @@ como lista). Cada evento se puede añadir a Google Calendar o descargar como arc
 su ventana.
 
 Además, cualquiera puede suscribirse al calendario completo con los enlaces que hay debajo de la vista
-mensual: el calendario se actualiza solo. Lo genera una tarea automática en
-\web{github.com/cienzdel/eventos} que lee la página cada tres horas, así que un evento nuevo tarda como
-mucho unas horas en llegar a los calendarios suscritos (en la web aparece al momento).
+mensual: el calendario se actualiza solo. Lo genera una tarea automática que lee la página
+cada tres horas, así que un evento nuevo tarda como mucho unas horas en llegar a los calendarios
+suscritos (en la web aparece al momento).
 
 \section{Problemas frecuentes}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.36\linewidth} X@{}}
@@ -195,7 +195,7 @@ He cambiado algo y no se ve & Recarga la página. Si es un cambio del funcionami
 \end{tabularx}
 
 \vspace{6pt}
-Dudas o sugerencias: \href{mailto:cienzdel@unizar.es}{cienzdel@unizar.es}. La explicación técnica está en
-\web{github.com/cienzdel/eventos}.
+Dudas o sugerencias: \href{mailto:cienzdel@unizar.es}{cienzdel@unizar.es}.\\
+Explicación técnica: \web{github.com/cienzdel/eventos}.
 
 \end{document}

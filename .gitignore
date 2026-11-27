@@ -5,3 +5,5 @@ node_modules/
 *.fls
 *.fdb_latexmk
 guia/fonts/
+*.log
+*.synctex.gz
