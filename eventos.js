@@ -27,7 +27,7 @@
 (function () {
   'use strict';
 
-  var VERSION = '0.1.3';
+  var VERSION = '0.1.4';
   var GUIA_PDF = 'https://cienzdel.github.io/eventos/guia/guia_eventos.pdf';
   var FEED = 'cienzdel.github.io/eventos/eventos.ics';
 
@@ -494,9 +494,9 @@
     '.meta .icono { margin-top: .2em; vertical-align: 0; }',
     '.meta strong { color: var(--texto); font-weight: 600; }',
     '.resumen { margin: 2px 0 0; color: var(--texto); font-size: .95em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }',
-    '.acciones { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 12px 18px 14px; border-top: 1px solid var(--borde); background: #fafbfd; box-shadow: inset 4px 0 0 var(--c); }',
+    '.acciones { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10em), 1fr)); gap: 10px; padding: 12px 18px 14px; border-top: 1px solid var(--borde); background: #fafbfd; box-shadow: inset 4px 0 0 var(--c); }',
     '.acciones > :only-child { grid-column: 1 / -1; }',
-    '.acciones .btn { padding: 8px; font-size: .92em; white-space: nowrap; }',
+    '.acciones .btn { padding: 8px; font-size: .92em; min-width: 0; white-space: normal; }',
     '.btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 40px; padding: 8px 14px; border-radius: 8px; font-weight: 600; font-size: .95em; text-decoration: none; cursor: pointer; border: 1px solid var(--borde); background: #fff; color: var(--texto); line-height: 1.2; text-align: center; }',
     '.btn:hover { border-color: var(--azul); }',
     '.btn.primario { background: var(--azul); border-color: var(--azul); color: #fff; }',
