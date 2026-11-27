@@ -1,0 +1,151 @@
+{
+  "generado": "2026-11-27T16:43:22.680Z",
+  "pagina": "https://cienzdel.unizar.es/eventos",
+  "version": "0.1.0",
+  "eventos": [
+    {
+      "id": "jornada-salidas-profesionales-en-ciencias",
+      "titulo": "Jornada «Salidas profesionales en Ciencias»",
+      "url": "https://cienzdel.unizar.es/eventos#jornada-salidas-profesionales-en-ciencias",
+      "inicio": "2026-12-03",
+      "fin": null,
+      "horaIni": "12:00",
+      "horaFin": "14:00",
+      "lugar": "Salón de actos del Edificio A",
+      "etiquetas": [
+        "Formación"
+      ],
+      "color": "#0f5e6e",
+      "destacado": true,
+      "estado": null,
+      "resumen": "Egresadas y egresados de los cinco grados de la Facultad cuentan qué hicieron al terminar la carrera: investigación, empresa, docencia y oposiciones.",
+      "inscripcion": "https://example.org/inscripcion-salidas-profesionales",
+      "plazo": "2026-12-02",
+      "portada": "https://cienzdel.unizar.es/ejemplos/salidas.jpg"
+    },
+    {
+      "id": "torneo-de-mus-2026-27",
+      "titulo": "Torneo de Mus 2026/27",
+      "url": "https://cienzdel.unizar.es/eventos#torneo-de-mus-2026-27",
+      "inicio": "2026-12-11",
+      "fin": null,
+      "horaIni": "16:30",
+      "horaFin": "21:00",
+      "lugar": "Cafetería de la Facultad",
+      "etiquetas": [
+        "Torneo",
+        "Ocio"
+      ],
+      "color": "#5b3b8c",
+      "destacado": false,
+      "estado": null,
+      "resumen": "Segunda edición del torneo de mus de la Facultad. Inscripción por parejas, eliminatoria directa y premios para las tres primeras.",
+      "inscripcion": "https://example.org/inscripcion-mus",
+      "plazo": null,
+      "portada": "https://cienzdel.unizar.es/ejemplos/mus.jpg"
+    },
+    {
+      "id": "taller-de-latex-para-el-tfg",
+      "titulo": "Taller de LaTeX para el TFG",
+      "url": "https://cienzdel.unizar.es/eventos#taller-de-latex-para-el-tfg",
+      "inicio": "2026-12-15",
+      "fin": null,
+      "horaIni": "16:00",
+      "horaFin": "18:30",
+      "lugar": "Aula de informática 1",
+      "etiquetas": [
+        "Formación",
+        "Taller"
+      ],
+      "color": "#0f5e6e",
+      "destacado": false,
+      "estado": null,
+      "resumen": "Taller práctico para empezar el Trabajo Fin de Grado en LaTeX: estructura del documento, bibliografía, figuras y ecuaciones.",
+      "inscripcion": "https://example.org/inscripcion-taller-latex",
+      "plazo": "2026-12-12",
+      "portada": "https://cienzdel.unizar.es/ejemplos/latex.jpg"
+    },
+    {
+      "id": "cine-forum-ciencia-en-pantalla",
+      "titulo": "Cine-fórum «Ciencia en pantalla»",
+      "url": "https://cienzdel.unizar.es/eventos#cine-forum-ciencia-en-pantalla",
+      "inicio": "2026-12-09",
+      "fin": null,
+      "horaIni": "18:00",
+      "horaFin": null,
+      "lugar": "Aula 1 del Edificio D",
+      "etiquetas": [
+        "Cultura"
+      ],
+      "color": "#a3245e",
+      "destacado": false,
+      "estado": "cancelado",
+      "resumen": "Proyección y coloquio sobre cómo retrata el cine el trabajo científico.",
+      "inscripcion": null,
+      "plazo": null,
+      "portada": null
+    },
+    {
+      "id": "pleno-ordinario-del-consejo-de-estudiantes",
+      "titulo": "Pleno ordinario del Consejo de Estudiantes",
+      "url": "https://cienzdel.unizar.es/eventos#pleno-ordinario-del-consejo-de-estudiantes",
+      "inicio": "2026-12-17",
+      "fin": null,
+      "horaIni": "13:00",
+      "horaFin": null,
+      "lugar": "Seminario del Edificio A",
+      "etiquetas": [
+        "Institucional"
+      ],
+      "color": "#223d71",
+      "destacado": false,
+      "estado": null,
+      "resumen": "Sesión ordinaria del Pleno. Es pública: cualquier estudiante de la Facultad puede asistir con voz y sin voto.",
+      "inscripcion": "no hace falta inscribirse",
+      "plazo": null,
+      "portada": null
+    },
+    {
+      "id": "torneo-de-guinote",
+      "titulo": "Torneo de Guiñote",
+      "url": "https://cienzdel.unizar.es/eventos#torneo-de-guinote",
+      "inicio": "2027-01-20",
+      "fin": "2027-01-22",
+      "horaIni": "17:00",
+      "horaFin": null,
+      "lugar": "Cafetería de la Facultad",
+      "etiquetas": [
+        "Torneo",
+        "Ocio"
+      ],
+      "color": "#5b3b8c",
+      "destacado": false,
+      "estado": null,
+      "resumen": "Tres tardes de guiñote por parejas al terminar los exámenes del primer semestre.",
+      "inscripcion": "https://example.org/inscripcion-guinote",
+      "plazo": null,
+      "portada": null
+    },
+    {
+      "id": "jornada-de-bienvenida-2026-27",
+      "titulo": "Jornada de bienvenida 2026/27",
+      "url": "https://cienzdel.unizar.es/eventos#jornada-de-bienvenida-2026-27",
+      "inicio": "2026-09-09",
+      "fin": null,
+      "horaIni": "10:00",
+      "horaFin": "13:00",
+      "lugar": "Edificio A",
+      "etiquetas": [
+        "Institucional",
+        "Ocio"
+      ],
+      "color": "#223d71",
+      "destacado": false,
+      "estado": null,
+      "resumen": "Presentación del Consejo de Estudiantes al estudiantado de primer curso, visita por la Facultad y almuerzo.",
+      "inscripcion": null,
+      "plazo": null,
+      "portada": null
+    }
+  ]
+}

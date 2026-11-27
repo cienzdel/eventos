@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eventos · Consejo de Estudiantes de Ciencias (demostración)</title>
+<meta name="robots" content="noindex">
+<style>
+  body { margin: 0; font-family: "Red Hat Text", system-ui, sans-serif; color: #2f3337; background: #fff; }
+  .pagina { max-width: 1170px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 2rem; margin: 0 0 16px; }
+  .demo { background: #fff3c4; border: 1px solid #e0c060; padding: 8px 12px; border-radius: 8px; font-size: .9rem; margin-bottom: 18px; }
+</style>
+</head>
+<body>
+<div class="pagina">
+<p class="demo">Demostración fuera de Drupal. La página real es cienzdel.unizar.es/eventos. Añade <code>?editor</code> a la dirección para ver la vista de editor.</p>
+<h1>Eventos</h1>
+<div class="cuerpo">
+<script>if (location.search.indexOf('editor') >= 0) document.addEventListener('DOMContentLoaded', function () { document.getElementById('eventos-cienzdel').setAttribute('data-editor', ''); }, { once: true, capture: true });</script>
+<div id="eventos-cienzdel"></div>
+<p><strong>Prototipo con eventos ficticios.</strong> Ninguno de estos eventos existe y los enlaces de inscripción son de prueba.</p>
+<p>Actividades organizadas por el Consejo de Estudiantes de la Facultad de Ciencias. Pulsa «Más información» para ver los detalles de cada una y «Inscribirse» para apuntarte.</p>
+<h2>Jornada «Salidas profesionales en Ciencias»</h2>
+<ul>
+<li>Fecha: 03/12/2026</li>
+<li>Hora: 12:00 a 14:00</li>
+<li>Lugar: Salón de actos del Edificio A</li>
+<li>Etiquetas: Destacado, Formación</li>
+<li>Inscripción: <a href="https://example.org/inscripcion-salidas-profesionales">formulario</a></li>
+<li>Plazo: 02/12/2026</li>
+</ul>
+<p><img src="ejemplos/salidas.jpg" alt="Ilustración de un salón de actos"></p>
+<p>Egresadas y egresados de los cinco grados de la Facultad cuentan qué hicieron al terminar la carrera: investigación, empresa, docencia y oposiciones.</p>
+<p>La jornada se organiza en dos mesas redondas de 45 minutos con turno de preguntas al final. Habrá café en el vestíbulo durante el descanso.</p>
+<h3>Programa</h3>
+<ul>
+<li>12:00 Presentación</li>
+<li>12:10 Mesa 1: investigación y doctorado</li>
+<li>13:00 Mesa 2: empresa, docencia y oposiciones</li>
+<li>13:50 Cierre</li>
+</ul>
+<p>La asistencia puede reconocerse como actividad de participación estudiantil. Consulta cómo pedir el certificado en <a href="/certificados-y-creditos">Certificados y créditos</a>.</p>
+<h2>Torneo de Mus 2026/27</h2>
+<ul>
+<li>Fecha: 11/12/2026</li>
+<li>Hora: 16:30 a 21:00</li>
+<li>Lugar: Cafetería de la Facultad</li>
+<li>Etiquetas: Torneo, Ocio</li>
+<li>Inscripción: <a href="https://example.org/inscripcion-mus">formulario</a></li>
+<li>Plazas: 32 parejas</li>
+</ul>
+<p><img src="ejemplos/mus.jpg" alt="Naipes sobre un tapete verde"></p>
+<p>Segunda edición del torneo de mus de la Facultad. Inscripción por parejas, eliminatoria directa y premios para las tres primeras.</p>
+<p>Las partidas se juegan a 40 tantos, con ocho reyes. El cuadro se publicará en el Instagram del Consejo el día anterior.</p>
+<p>Bases completas y palmarés de ediciones anteriores en <a href="/torneos">Torneos</a>.</p>
+<h2>Taller de LaTeX para el TFG</h2>
+<ul>
+<li>Fecha: 15 de diciembre de 2026</li>
+<li>Hora: 16:00 a 18:30</li>
+<li>Lugar: Aula de informática 1</li>
+<li>Etiquetas: Formación, Taller</li>
+<li>Inscripción: <a href="https://example.org/inscripcion-taller-latex">formulario</a></li>
+<li>Plazo: 12/12/2026</li>
+<li>Trae: portátil con Overleaf o TeX Live instalado</li>
+</ul>
+<p><img src="ejemplos/latex.jpg" alt="Diagrama abstracto de nodos conectados"></p>
+<p>Taller práctico para empezar el Trabajo Fin de Grado en LaTeX: estructura del documento, bibliografía, figuras y ecuaciones.</p>
+<p>Trabajaremos con las <a href="https://github.com/cienzdel/plantillas-latex">plantillas del Consejo</a> como ejemplo. No hace falta saber LaTeX.</p>
+<h2>Cine-fórum «Ciencia en pantalla»</h2>
+<ul>
+<li>Fecha: 09/12/2026</li>
+<li>Hora: 18:00</li>
+<li>Lugar: Aula 1 del Edificio D</li>
+<li>Etiquetas: Cultura</li>
+<li>Estado: cancelado</li>
+</ul>
+<p>Proyección y coloquio sobre cómo retrata el cine el trabajo científico.</p>
+<p>Lo hemos cancelado porque el aula no está disponible ese día. Buscaremos otra fecha en el segundo semestre.</p>
+<h2>Pleno ordinario del Consejo de Estudiantes</h2>
+<ul>
+<li>Fecha: 17/12/2026</li>
+<li>Hora: 13:00</li>
+<li>Lugar: Seminario del Edificio A</li>
+<li>Etiquetas: Institucional</li>
+<li>Inscripción: no hace falta inscribirse</li>
+</ul>
+<p>Sesión ordinaria del Pleno. Es pública: cualquier estudiante de la Facultad puede asistir con voz y sin voto.</p>
+<p>El orden del día se enviará con la convocatoria. Las normas de funcionamiento están en el <a href="/reglamento">Reglamento</a>, y la lista de representantes en <a href="/representantes">Representantes</a>.</p>
+<h2>Torneo de Guiñote</h2>
+<ul>
+<li>Fecha: del 20 al 22 de enero de 2027</li>
+<li>Hora: 17:00</li>
+<li>Lugar: Cafetería de la Facultad</li>
+<li>Etiquetas: Torneo, Ocio</li>
+<li>Inscripción: <a href="https://example.org/inscripcion-guinote">formulario</a></li>
+</ul>
+<p>Tres tardes de guiñote por parejas al terminar los exámenes del primer semestre.</p>
+<p>Primera fase por grupos el miércoles y el jueves, final el viernes. Bases en <a href="/torneos">Torneos</a>.</p>
+<h2>Concurso de fotografía científica</h2>
+<ul>
+<li>Fecha: 01/02/2027</li>
+<li>Etiquetas: Cultura</li>
+<li>Estado: borrador</li>
+</ul>
+<p>Ejemplo de evento en borrador: solo lo ve quien tiene sesión iniciada en la web.</p>
+<h2>Jornada de bienvenida 2026/27</h2>
+<ul>
+<li>Fecha: 09/09/2026</li>
+<li>Hora: 10:00 a 13:00</li>
+<li>Lugar: Edificio A</li>
+<li>Etiquetas: Institucional, Ocio</li>
+</ul>
+<p>Presentación del Consejo de Estudiantes al estudiantado de primer curso, visita por la Facultad y almuerzo.</p>
+<p>Las diapositivas y la guía para primer curso están en <a href="/primer-curso">Primer curso</a>.</p>
+<h2>Plantilla para copiar</h2>
+<ul>
+<li>Fecha: 31/12/2027</li>
+<li>Hora: 10:00 a 12:00</li>
+<li>Lugar: Escribe aquí el lugar</li>
+<li>Etiquetas: Escribe, Etiquetas, Separadas por comas</li>
+<li>Inscripción: <a href="https://forms.gle/">enlace al formulario</a></li>
+<li>Plazo: 30/12/2027</li>
+<li>Estado: borrador</li>
+</ul>
+<p>Primer párrafo: resumen corto que sale en la tarjeta.</p>
+<p>Lo demás solo sale al pulsar «Más información». Quita «Estado: borrador» cuando quieras publicarlo.</p>
+<script src="eventos.js"></script>
+</div>
+</div>
+</body>
+</html>

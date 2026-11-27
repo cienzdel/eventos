@@ -1,0 +1,12 @@
+{
+  "name": "cienzdel-eventos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "exportar": "node herramientas/exportar.mjs",
+    "demo": "python herramientas/demo.py"
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.1"
+  }
+}

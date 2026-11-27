@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Consejo de Estudiantes de Ciencias UZ//Eventos//ES
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Eventos del Consejo de Estudiantes de Ciencias
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:jornada-salidas-profesionales-en-ciencias@cienzdel.unizar.es
+DTSTAMP:20261127T164322Z
+DTSTART;TZID=Europe/Madrid:20261203T120000
+DTEND;TZID=Europe/Madrid:20261203T140000
+SUMMARY:Jornada «Salidas profesionales en Ciencias»
+LOCATION:Salón de actos del Edificio A
+DESCRIPTION:Egresadas y egresados de los cinco grados de la Facultad cuent
+ an qué hicieron al terminar la carrera: investigación\, empresa\, docen
+ cia y oposiciones.\n\nMás información: https://cienzdel.unizar.es/event
+ os#jornada-salidas-profesionales-en-ciencias
+URL:https://cienzdel.unizar.es/eventos#jornada-salidas-profesionales-en-ci
+ encias
+CATEGORIES:Formación
+END:VEVENT
+BEGIN:VEVENT
+UID:torneo-de-mus-2026-27@cienzdel.unizar.es
+DTSTAMP:20261127T164322Z
+DTSTART;TZID=Europe/Madrid:20261211T163000
+DTEND;TZID=Europe/Madrid:20261211T210000
+SUMMARY:Torneo de Mus 2026/27
+LOCATION:Cafetería de la Facultad
+DESCRIPTION:Segunda edición del torneo de mus de la Facultad. Inscripció
+ n por parejas\, eliminatoria directa y premios para las tres primeras.\n\
+ nMás información: https://cienzdel.unizar.es/eventos#torneo-de-mus-2026
+ -27
+URL:https://cienzdel.unizar.es/eventos#torneo-de-mus-2026-27
+CATEGORIES:Torneo,Ocio
+END:VEVENT
+BEGIN:VEVENT
+UID:taller-de-latex-para-el-tfg@cienzdel.unizar.es
+DTSTAMP:20261127T164322Z
+DTSTART;TZID=Europe/Madrid:20261215T160000
+DTEND;TZID=Europe/Madrid:20261215T183000
+SUMMARY:Taller de LaTeX para el TFG
+LOCATION:Aula de informática 1
+DESCRIPTION:Taller práctico para empezar el Trabajo Fin de Grado en LaTeX
+ : estructura del documento\, bibliografía\, figuras y ecuaciones.\n\nMá
+ s información: https://cienzdel.unizar.es/eventos#taller-de-latex-para-e
+ l-tfg
+URL:https://cienzdel.unizar.es/eventos#taller-de-latex-para-el-tfg
+CATEGORIES:Formación,Taller
+END:VEVENT
+BEGIN:VEVENT
+UID:cine-forum-ciencia-en-pantalla@cienzdel.unizar.es
+DTSTAMP:20261127T164322Z
+DTSTART;TZID=Europe/Madrid:20261209T180000
+DTEND;TZID=Europe/Madrid:20261209T190000
+SUMMARY:Cine-fórum «Ciencia en pantalla»
+LOCATION:Aula 1 del Edificio D
+DESCRIPTION:Proyección y coloquio sobre cómo retrata el cine el trabajo 
+ científico.\n\nMás información: https://cienzdel.unizar.es/eventos#cin
+ e-forum-ciencia-en-pantalla
+URL:https://cienzdel.unizar.es/eventos#cine-forum-ciencia-en-pantalla
+STATUS:CANCELLED
+CATEGORIES:Cultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pleno-ordinario-del-consejo-de-estudiantes@cienzdel.unizar.es
+DTSTAMP:20261127T164322Z
+DTSTART;TZID=Europe/Madrid:20261217T130000
+DTEND;TZID=Europe/Madrid:20261217T140000
+SUMMARY:Pleno ordinario del Consejo de Estudiantes
+LOCATION:Seminario del Edificio A
+DESCRIPTION:Sesión ordinaria del Pleno. Es pública: cualquier estudiante
+  de la Facultad puede asistir con voz y sin voto.\n\nMás información: h
+ ttps://cienzdel.unizar.es/eventos#pleno-ordinario-del-consejo-de-estudian
+ tes
+URL:https://cienzdel.unizar.es/eventos#pleno-ordinario-del-consejo-de-estu
+ diantes
+CATEGORIES:Institucional
+END:VEVENT
+BEGIN:VEVENT
+UID:torneo-de-guinote@cienzdel.unizar.es
+DTSTAMP:20261127T164322Z
+DTSTART;TZID=Europe/Madrid:20270120T170000
+DTEND;TZID=Europe/Madrid:20270122T180000
+SUMMARY:Torneo de Guiñote
+LOCATION:Cafetería de la Facultad
+DESCRIPTION:Tres tardes de guiñote por parejas al terminar los exámenes 
+ del primer semestre.\n\nMás información: https://cienzdel.unizar.es/eve
+ ntos#torneo-de-guinote
+URL:https://cienzdel.unizar.es/eventos#torneo-de-guinote
+CATEGORIES:Torneo,Ocio
+END:VEVENT
+BEGIN:VEVENT
+UID:jornada-de-bienvenida-2026-27@cienzdel.unizar.es
+DTSTAMP:20261127T164322Z
+DTSTART;TZID=Europe/Madrid:20260909T100000
+DTEND;TZID=Europe/Madrid:20260909T130000
+SUMMARY:Jornada de bienvenida 2026/27
+LOCATION:Edificio A
+DESCRIPTION:Presentación del Consejo de Estudiantes al estudiantado de pr
+ imer curso\, visita por la Facultad y almuerzo.\n\nMás información: htt
+ ps://cienzdel.unizar.es/eventos#jornada-de-bienvenida-2026-27
+URL:https://cienzdel.unizar.es/eventos#jornada-de-bienvenida-2026-27
+CATEGORIES:Institucional,Ocio
+END:VEVENT
+END:VCALENDAR

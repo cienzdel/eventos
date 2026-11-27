@@ -1,0 +1,6 @@
+node_modules/
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
