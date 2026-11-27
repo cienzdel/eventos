@@ -34,7 +34,7 @@
 
 \section*{En resumen}
 Los eventos se escriben dentro de la propia página \web{cienzdel.unizar.es/eventos}, como cualquier
-otro texto de la web. Cada evento es un \textbf{«Título 2»} seguido de una \textbf{lista con sus datos}
+otro texto de la web. Cada evento es un \textbf{«Encabezado 2»} seguido de una \textbf{lista con sus datos}
 («Fecha: …», «Lugar: …») y de unos párrafos de texto. La página los convierte sola en tarjetas, en un
 calendario y en la ventana de «Más información». No hace falta tocar código ni pedir nada a nadie: basta
 una cuenta de editor en la web.
@@ -83,12 +83,12 @@ y esta otra al final del todo:
 \end{cuidado}
 
 \section{Cómo se escribe un evento}\label{sec:datos}
-Un evento empieza en un \textbf{«Título 2»} (el desplegable «Párrafo» de la barra del editor) y acaba
+Un evento empieza en un \textbf{«Encabezado 2»} (el desplegable «Elegir Encabezado» de la barra del editor) y acaba
 donde empieza el siguiente. Justo debajo del título va una \textbf{lista de viñetas} con una línea por dato,
 siempre con la forma «Nombre: valor». Esto es lo que se escribe, tal cual:
 
 \begin{tcolorbox}[colback=white, colframe=DarkGray3, boxrule=0.4pt, arc=1mm, left=3mm]
-\textbf{\large Torneo de Mus 2026/27}\hfill{\small\color{DarkGray3}(Título 2)}
+\textbf{\large Torneo de Mus 2026/27}\hfill{\small\color{DarkGray3}(Encabezado 2)}
 \begin{itemize}[itemsep=0pt]
   \item Fecha: 11/12/2026
   \item Hora: 16:30 a 21:00
@@ -130,10 +130,12 @@ Otras & Cualquier otra línea con la forma «Nombre: valor» («Plazas: 32 parej
 \subsection{El texto}
 \begin{itemize}
   \item \textbf{El primer párrafo} después de la lista es el resumen de la tarjeta (unas tres líneas).
-  \item \textbf{Todo lo demás} (párrafos, listas, «Título 3», enlaces a reglamentos o a otras páginas)
+  \item \textbf{Todo lo demás} (párrafos, listas, «Encabezado 3», enlaces a reglamentos o a otras páginas)
         solo aparece al pulsar \boton{Más información}. Es como una noticia corta.
-  \item \textbf{La primera imagen} del evento es la portada de la tarjeta. Súbela con el botón de imagen
-        del editor y rellena el texto alternativo. Lo mejor es un JPG apaisado de 1200\,×\,675 píxeles
+  \item \textbf{La primera imagen} del evento es la portada de la tarjeta. Ponla justo debajo de la lista
+        con el botón del gestor de archivos (la carpeta con una foto, «Insert images using Imce File
+        Manager»): en la ventana que se abre, sube el archivo, selecciónalo e insértalo. Después pulsa sobre
+        la imagen y rellena su texto alternativo (qué se ve en ella). Lo mejor es un JPG apaisado de 1200\,×\,675 píxeles
         (proporción 16:9) y menos de 300\,kB. Sin imagen, la tarjeta usa el color de la primera etiqueta.
 \end{itemize}
 
@@ -179,8 +181,8 @@ mucho unas horas en llegar a los calendarios suscritos (en la web aparece al mom
 \toprule
 Lo que pasa & Por qué y cómo se arregla \\
 \midrule
-El evento sale pegado al anterior, como texto suyo & El título no es «Título 2» (quizá es «Título 3»
-  o un párrafo en negrita). Selecciónalo y elige «Título 2». \\
+El evento sale pegado al anterior, como texto suyo & El título no es «Encabezado 2» (quizá es «Encabezado 3»
+  o un párrafo en negrita). Selecciónalo y elige «Encabezado 2» en «Elegir Encabezado». \\
 «No encuentro la lista de datos» & Los datos no están en una lista de viñetas o les falta «Nombre:».
   Selecciona las líneas y pulsa el botón de lista de viñetas. \\
 «No entiendo la fecha» & Escríbela como \texttt{11/12/2026} o «11 de diciembre de 2026». \\

@@ -27,7 +27,7 @@
 (function () {
   'use strict';
 
-  var VERSION = '0.1.2';
+  var VERSION = '0.1.3';
   var GUIA_PDF = 'https://cienzdel.github.io/eventos/guia/guia_eventos.pdf';
   var FEED = 'cienzdel.github.io/eventos/eventos.ics';
 
@@ -937,7 +937,7 @@
       icono('lapiz'), ' ', el('strong', { text: 'Vista de editor. ' }),
       'Para añadir un evento, ',
       editar ? el('a', { href: editar.getAttribute('href'), text: 'edita esta página' }) : 'edita esta página',
-      ', copia un evento (desde su «Título 2» hasta antes del siguiente) y cambia los datos. ',
+      ', copia un evento (desde su «Encabezado 2» hasta antes del siguiente) y cambia los datos. ',
       el('a', { href: GUIA_PDF, target: '_blank', rel: 'noopener', text: 'Guía en PDF' }), '. ',
       'Los eventos con «Estado: borrador» solo los ves tú. Este recuadro no lo ve el público.'
     ]);
