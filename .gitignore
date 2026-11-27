@@ -4,3 +4,4 @@ node_modules/
 *.toc
 *.fls
 *.fdb_latexmk
+guia/fonts/

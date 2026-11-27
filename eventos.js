@@ -27,7 +27,7 @@
 (function () {
   'use strict';
 
-  var VERSION = '0.1.1';
+  var VERSION = '0.1.2';
   var GUIA_PDF = 'https://cienzdel.github.io/eventos/guia/guia_eventos.pdf';
   var FEED = 'cienzdel.github.io/eventos/eventos.ics';
 
@@ -496,6 +496,7 @@
     '.resumen { margin: 2px 0 0; color: var(--texto); font-size: .95em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }',
     '.acciones { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 12px 18px 14px; border-top: 1px solid var(--borde); background: #fafbfd; box-shadow: inset 4px 0 0 var(--c); }',
     '.acciones > :only-child { grid-column: 1 / -1; }',
+    '.acciones .btn { padding: 8px; font-size: .92em; white-space: nowrap; }',
     '.btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 40px; padding: 8px 14px; border-radius: 8px; font-weight: 600; font-size: .95em; text-decoration: none; cursor: pointer; border: 1px solid var(--borde); background: #fff; color: var(--texto); line-height: 1.2; text-align: center; }',
     '.btn:hover { border-color: var(--azul); }',
     '.btn.primario { background: var(--azul); border-color: var(--azul); color: #fff; }',
@@ -723,7 +724,7 @@
     }
 
     function textoSello(e, pasado) {
-      if (e.estado === 'borrador') return { clase: 'borrador', texto: 'Borrador (solo editores)' };
+      if (e.estado === 'borrador') return { clase: 'borrador', texto: 'Borrador' };
       if (e.estado === 'cancelado') return { clase: 'cancelado', texto: 'Cancelado' };
       if (e.estado === 'aplazado') return { clase: 'aplazado', texto: 'Aplazado' };
       if (e.estado === 'completo' && !pasado) return { clase: 'completo', texto: 'Completo' };
@@ -740,7 +741,7 @@
         div.appendChild(el('span', { class: 'btn', 'aria-disabled': 'true', text: ins.texto }));
       }
       if (!enDialogo) {
-        div.appendChild(el('button', { type: 'button', class: 'btn', 'aria-haspopup': 'dialog', onclick: function () { abrir(e); } }, [icono('info'), 'Más información']));
+        div.appendChild(el('button', { type: 'button', class: 'btn', 'aria-haspopup': 'dialog', onclick: function () { abrir(e); } }, ['Más información']));
         return div;
       }
       if (e.fecha && e.estado !== 'cancelado' && !esPasado(e, hoy)) {
